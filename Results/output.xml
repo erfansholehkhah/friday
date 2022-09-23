@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.6 on win32)" generated="20220923 09:09:17.437" rpa="false" schemaversion="3">
+<suite id="s1" name="App" source="C:\Users\Gejmer\Desktop\development\friday\Tests\app.robot">
+<test id="s1-t1" name="Here we go" line="21">
+<kw name="Begins Testing" library="commonwebapp" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220923 09:09:17.685" level="INFO">Opening browser 'Chrome' to base url ''.</msg>
+<status status="PASS" starttime="20220923 09:09:17.685" endtime="20220923 09:09:20.554"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220923 09:09:20.554" endtime="20220923 09:09:20.672"/>
+</kw>
+<status status="PASS" starttime="20220923 09:09:17.685" endtime="20220923 09:09:20.672"/>
+</kw>
+<kw name="Step one" library="testapp">
+<msg timestamp="20220923 09:09:20.673" level="FAIL">User keyword 'Step one' contains no keywords.</msg>
+<status status="FAIL" starttime="20220923 09:09:20.673" endtime="20220923 09:09:20.673"/>
+</kw>
+<kw name="Step two" library="testapp">
+<status status="NOT RUN" starttime="20220923 09:09:20.673" endtime="20220923 09:09:20.673"/>
+</kw>
+<kw name="Ends Testing" library="commonwebapp" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20220923 09:09:20.675" endtime="20220923 09:09:22.811"/>
+</kw>
+<status status="PASS" starttime="20220923 09:09:20.674" endtime="20220923 09:09:22.811"/>
+</kw>
+<tag>LLinformatics</tag>
+<status status="FAIL" starttime="20220923 09:09:17.684" endtime="20220923 09:09:22.812">User keyword 'Step one' contains no keywords.</status>
+</test>
+<doc>This is not a test</doc>
+<status status="FAIL" starttime="20220923 09:09:17.439" endtime="20220923 09:09:22.818"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">LLinformatics</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="App">App</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220923 09:09:17.681" level="ERROR">Error in file 'C:\Users\Gejmer\Desktop\development\friday\Resources\PO\testapp.robot' on line 5: Resource file '..\Resources\PO\locators' does not exist.</msg>
+</errors>
+</robot>
