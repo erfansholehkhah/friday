@@ -13,7 +13,7 @@ Test Teardown  Ends Testing
 
 *** Variables ***
 ${BROWSER} =  Chrome
-${URL} =
+${URL} =  www.amazon.com
 
 
 *** Test Cases ***
